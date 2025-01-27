@@ -37,4 +37,5 @@ if context:
 
 # Optional Reset Button
 if st.button("Reset"):
-    st.experimental_rerun()
+    st.rerun()
+
