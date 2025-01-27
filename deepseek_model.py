@@ -1,5 +1,6 @@
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 import logging
+import torch
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
